@@ -5,4 +5,6 @@ from .models import User
 # Create your views here.
 class UserView(CreateView):
     model = User
-    fields = ('name', 'email', 'password', 'invite_code')
+    fields = ('name', 'email', 'password', 'verification_code')
+
+    

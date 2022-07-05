@@ -6,7 +6,7 @@ class User(models.Model):
     name = CharField(max_length=200)
     email = EmailField(blank=True)
     password = CharField(max_length=100)
-    invite_code = IntegerField(blank=True, null=True)
+    verificaton_code = IntegerField(blank=True, null=True)
 
 
     
